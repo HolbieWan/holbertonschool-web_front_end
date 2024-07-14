@@ -393,7 +393,7 @@
 body {
     color: #161616;
     font-family: var(--font-family-base);
-    font: var(--font-size-medium);
+    font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
