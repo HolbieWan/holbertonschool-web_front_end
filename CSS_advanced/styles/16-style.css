@@ -426,6 +426,9 @@ a:active {
 
 .section-tagline {
     color: var(--color-primary);
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+    transform: var(--section-tagline-transform);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -439,10 +442,4 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
-}
-
-.section-tagline {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-    transform: var(--section-tagline-transform);
 }
